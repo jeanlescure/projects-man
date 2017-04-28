@@ -1,0 +1,36 @@
+{
+  "name": "projects-man",
+  "version": "0.0.1",
+  "description": "Projects manager based on NW.js. Basically a TODO app on steroids.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanlescure/projects-man.git"
+  },
+  "keywords": [
+    "project",
+    "manager",
+    "nwjs",
+    "nodejs",
+    "bootstrap",
+    "datatables"
+  ],
+  "author": "Jean M. Lescure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanlescure/projects-man/issues"
+  },
+  "homepage": "https://github.com/jeanlescure/projects-man#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jsonfile": "^3.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
